@@ -2,10 +2,10 @@ import Head from 'next/head'
 // import styles from '../styles/Home.module.css'
 import axios from "axios";
 import { useState } from "react";
-import { siteTitle } from './components/Seo'
+import { siteTitle } from '../components/Seo'
 
-import Quote from './components/Quote'
-import Button from './components/Button'
+import Quote from '../components/Quote'
+import Button from '../components/Button'
 
 
 let url = "https://my-nano-quotes-api.herokuapp.com/quotes";
