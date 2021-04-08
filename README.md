@@ -1,31 +1,125 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Nano Quotes</h1>
+
+<!-- PROJECT LOGO -->
+<br />
+<p >
+
+  <p>
+Nano Quotes! is an inspirational and motivatonal quote generator that calls an open source <a href="https://github.com/hzeghari/quotes-api">inspirational quotes api</a> created by yours truly!
+    <br />
+    <a href="https://github.com/hzeghari/nano-quotes/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://nano-quotes-the47.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/hzeghari/nano-quotes/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hzeghari/nano-quotes/issues">Request Feature</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+
+<img src="https://cdn.mockupsjar.com/renders/macbook-pro-standing-89Z2jz1MC8fUATgB.jpg" width="50%" height="50%" title="project">
+
+
+### Built With
+
+#### Frontend:
+
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+- App hosted on [Vercel](https://www.vercel.com)
+
+#### Backend
+
+- [Node.js](https://nodejs.org)
+- [Json-server](https://github.com/typicode/json-server)
+- Server hosted on [Heroku](https://www.heroku.com)
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+### To run the project:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Clone the repo
+   ```sh
+   git clone https://github.com/hzeghari/nano-quotes.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run npm start
+   ```sh
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- CONTRIBUTING -->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contributing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Any contributions you make are **greatly appreciated**.
+(If you like this project, **please** consider contributing to my <a href="https://github.com/hzeghari/quotes-api">open source API!</a>)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+<!-- LICENSE -->
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- CONTACT -->
+
+## Contact
+
+Hamza Zeghari - [Portfolio](https://hzeghari.now.sh) - [LinkedIn](https://www.linkedin.com/in/hzeghari) [@the__fortyseven on Twitter](https://twitter.com/the__fortyseven) - zeghari.hamzaa@gmail.com
+
+Project Link: [https://github.com/hzeghari/nano-quotes](https://github.com/hzeghari/nano-quotes)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [Contribute to my inspirational quotes API](https://github.com/hzeghari/quotes-api)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+
+
 
 ## Deploy on Vercel
 
