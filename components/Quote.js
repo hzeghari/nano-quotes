@@ -35,7 +35,7 @@ export default function Quote(props) {
             </div>
 
             
-            <button onClick={props.handleClick} className="absolute top-1/2 left-1/10 bg-backing border border-black hover:bg-blue-700 text-black font-bold py-2 px-4 rounded" >
+            <button onClick={props.handleClick} className="absolute top-3/4 left-1/2 lg:left-45/45 md:left-45/45 sm:left-1/3 bg-backing border border-black hover:bg-blue-700 text-black font-bold py-2 px-4 rounded" >
                 Generate Quote
             </button>
             
